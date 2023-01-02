@@ -41,6 +41,8 @@ Instructions can be classified to two types: Only can be executed in kernel mode
 ### 1.8
 - We can have different levels of user modes plus a kernel mode. For example, a root user mode which has higher authority than common user mode.
 - Support VMM. VMM mode has more priviledges than user mode, but less than kernel mode.
+> Different types of user mode: Group of users.
+> Different types of kernel mode: For example, USB devices could be serviced as a quasi-user/kernel mode.
 
 ### 1.9
 A program can set a timer for some time, once the timer finished and send an interrupt, the program can receive the interrupt and update how many interrupts have been received so far to calculate current time.
