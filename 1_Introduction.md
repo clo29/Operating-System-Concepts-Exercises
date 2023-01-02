@@ -47,4 +47,15 @@ A program can set a timer for some time, once the timer finished and send an int
 
 ### 1.10
 Why caches are useful?
-- 
+- Caches can save execution time for moving data from main memory or disks, these can be the bottleneck of execution time.
+- Frequent used data can be kept in caches to optimize program efficiency.
+
+What problems do they solve?
+- Caches solve data transfer problem among different storage devices.
+
+What problems do they cause?
+- Cahces cause synchronization problem, the data in cache must be identical with the data in original storage.
+
+Why not make it that large and eliminate the device?
+- Caches are volatile, while other storage devices can be non-volatile.
+- Caches are expensive.
