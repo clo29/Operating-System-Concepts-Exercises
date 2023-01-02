@@ -33,3 +33,18 @@ Instructions can be classified to two types: Only can be executed in kernel mode
 - f. Priviledged.
 - g. Priviledged.
 - h. Priviledged.
+
+### 1.7
+- It's hard to do communications between multiple processes, because if user or OS can't modify OS memory partition, it can't pass messages from one process to another process.
+- Some important data have to be stored in unprotected memory partition.
+
+### 1.8
+- We can have different levels of user modes plus a kernel mode. For example, a root user mode which has higher authority than common user mode.
+- Support VMM. VMM mode has more priviledges than user mode, but less than kernel mode.
+
+### 1.9
+A program can set a timer for some time, once the timer finished and send an interrupt, the program can receive the interrupt and update how many interrupts have been received so far to calculate current time.
+
+### 1.10
+Why caches are useful?
+- 
